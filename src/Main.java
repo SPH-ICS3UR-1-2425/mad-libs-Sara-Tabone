@@ -36,7 +36,13 @@ public class Main {
 		String betterworse = in.nextLine();
 		System.out.println("Choose a second noun!");
 		String noun2 = in.nextLine();
-		System.out.println (name+" is "+negativeadj+". On "+DOTW+", at "+place+", they claimed that "+noun1+"s are x"+num+" than "+noun2+"s."); 
+		System.out.println("Give me a decimal number!");
+		double decNumber = in.nextDouble();
+		System.out.println("Congrats! You have made it to the final order; Give me a third noun!");
+		//flush
+		in.nextLine();
+		String noun3 = in.nextLine();
+		System.out.println (name+" is "+negativeadj+". On "+DOTW+", at "+place+", they claimed that "+noun1+"s are x"+num +betterworse+" than "+noun2+"s. "); 
 		in.close();
 	}
 
